@@ -83,6 +83,9 @@ class Matrix(object):
     def getcolumn(self, row):
         return [self.matrix[row-1][i] for i in range(self.cols)]
 
+    def getcolumn2(self, row):
+        return [self.matrix[row-1][i] for i in range(self.cols)]
+
 
     def __repr__(self):
         outStr = ""
