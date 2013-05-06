@@ -51,7 +51,7 @@ class Matrix(object):
         Row 4 = [0, 0, 0, 0]
         <BLANKLINE>
         """
-        matrix[row-1][col-1] = v
+        self.matrix[row-1][col-1] = v
 
 
     def getitem(self, row, col):
