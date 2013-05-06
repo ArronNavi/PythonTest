@@ -20,7 +20,7 @@ class Matrix(object):
         Row 4 = [0, 0, 0, 0]
         <BLANKLINE>
         """
-        self.cols = cols
+        cols = cols
         self.rows = rows
         # initialize matrix and fill with zeroes
         self.matrix = []
