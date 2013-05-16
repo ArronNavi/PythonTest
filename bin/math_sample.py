@@ -46,10 +46,9 @@ def factorial(n):
         ...
     OverflowError: n too large
     """
+    error_bomb
 
     import math
-
-    test_bomb
 
     if not n >= 0:
         raise ValueError("n must be >= 0")
