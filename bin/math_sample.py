@@ -46,6 +46,7 @@ def factorial(n):
         ...
     OverflowError: n too large
     """
+    error_bomb
 
     import math
 
